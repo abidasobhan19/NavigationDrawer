@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_marginTop="@dimen/small_padding"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dim"
+            android:layout_height="@dimen/icon_dim"
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/large_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/home"
+            android:textSize="@dimen/title_txt_size"
+            android:textAllCaps="true"
+            android:padding="@dimen/small_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_marginTop="@dimen/small_padding"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dim"
+            android:layout_height="@dimen/icon_dim"
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/large_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/about"
+            android:textSize="@dimen/title_txt_size"
+            android:textAllCaps="true"
+            android:padding="@dimen/small_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact"
+        android:background="@android:color/white"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dim"
+            android:layout_height="@dimen/icon_dim"
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/large_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/contact"
+            android:textSize="@dimen/title_txt_size"
+            android:textAllCaps="true"
+            android:padding="@dimen/small_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:background="@android:color/white"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dim"
+            android:layout_height="@dimen/icon_dim"
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/large_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/profile"
+            android:textSize="@dimen/title_txt_size"
+            android:textAllCaps="true"
+            android:padding="@dimen/small_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logout"
+        android:background="@android:color/white"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dim"
+            android:layout_height="@dimen/icon_dim"
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/large_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/logout"
+            android:textSize="@dimen/title_txt_size"
+            android:textAllCaps="true"
+            android:padding="@dimen/small_padding"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
